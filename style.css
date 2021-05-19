@@ -168,7 +168,7 @@ main {
 }
 .menu-item {
   display: grid;
-  gap: 1.5rem 2rem;
+  gap: 1rem 2rem;
   max-width: 25rem;
 }
 .photo {
