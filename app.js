@@ -133,8 +133,8 @@ const menu = [
       container.innerHTML = categoryButtons;
       const filterButtons = container.querySelectorAll(".filter-button");
       // filter items
-      filterButtons.forEach(function (btn) {
-        btn.addEventListener("click", function (e) {
+      filterButtons.forEach(function (button) {
+        button.addEventListener("click", function (e) {
           const category = e.currentTarget.dataset.id;
           const menuCategory = menu.filter(function (menuItem) {
             // console.log(menuItem.category);
