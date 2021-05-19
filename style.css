@@ -139,12 +139,12 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-..button-container {
+.button-container {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
 }
-.filter-.button {
+.filter-button {
   background: transparent;
   border-color: var(--clr-gold);
   font-size: 1rem;
@@ -157,7 +157,7 @@ main {
   cursor: pointer;
   transition: var(--transition);
 }
-.filter-.button:hover {
+.filter-button:hover {
   background: var(--clr-gold);
   color: var(--clr-white);
 }
